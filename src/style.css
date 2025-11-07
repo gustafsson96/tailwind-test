@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@layer components {
+    .table-head {
+        padding: 0.5rem 1rem;
+        border-bottom: 1px solid gray;
+        text-align: left;
+    }
+
+    .table-hover:hover {
+        background-color: rgba(128, 128, 128, 0.2);
+    }
+
+    .table-data {
+        padding: 0.5rem 1rem;
+        border-bottom: 1px solid gray;
+    }
+}
